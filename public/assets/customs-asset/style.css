@@ -1,0 +1,63 @@
+.dataTables_wrapper {
+    font-size: 13px;
+}
+
+#example1 tr.selected>td{
+    background-color: #57a9fc;
+}
+
+#example1 tr.selected td>a{
+    color: #fff;
+}
+
+#selectbox,.select-checkbox {
+    cursor: pointer;
+}
+table td {
+    padding-top: .30rem !important;
+    padding-bottom: .30rem !important;
+}
+
+  .profile-pic {
+      max-width: 250px;
+      max-height: 250px;
+      display: block;
+  }
+
+  .file-upload {
+      display: none;
+  }
+  .circle {
+      /* border-radius: 50% !important; */
+      overflow: hidden;
+      width: 280px;
+      height: 280px;
+      border: 8px solid rgba(255, 255, 255, 0.7);
+      position: absolute;
+      /* top: 72px; */
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .p-image {
+    position: absolute;
+    top: 167px;
+    right: 30px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .upload-button {
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+  }
